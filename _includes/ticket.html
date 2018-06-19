@@ -18,12 +18,12 @@
             <img src="image/icons/ticket.png" alt="ticket icon">
             {%if post.held-conferance %}
                 <p class="state">برگزار شده</p>
-            {% else if !post.available-ticket %}
-                <p class="state">بلیت تمام شد</p>
-            {%else%}
+            {% elsif post.available-ticket %}
                 <p>
                     <a class="button" href="{{post.reserve-url}}" >تهیه بلیط</a>
                 </p>
+            {%else%}
+                <p class="state">بلیت تمام شد</p>
             {%endif%}
         </div>
     </div>
