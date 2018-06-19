@@ -2,7 +2,7 @@
 layout: post
 categories: event
 conf-id: 11
-title: معرفی زبان کاتلین و ساخت اپلیکیشن اندروید با آن
+title: معرفی Architecture Components و استفاده از DataBinding
 short-title: ArchitectureComponents & DataBinding
 lecturer: امیررضا غلامی - داوود حسینی
 avatar:

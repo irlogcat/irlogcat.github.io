@@ -6,7 +6,7 @@ title: بررسی دیزاین‌ پترن‌های MVC، MVP و MVVM
 short-title: Design Patterns
 lecturer: مجید رمضانپور
 avatar: majid-ramezanpour.jpg
-image: 
+image: conf04.jpg
 date: 2017-10-05 15:0:0 +0430
 reserve-url:
 source: https://github.com/maour/sample

@@ -6,7 +6,7 @@ title: معرفی زبان کاتلین و ساخت اپلیکیشن اندرو�
 short-title: Kotlin
 lecturer: شایان پوروطن
 avatar: shayan-pourvatan.jpg
-image: 
+image: conf01.jpg
 date: 2017-06-26 15:0:0 +0430
 reserve-url: 
 source: https://github.com/shayanpourvatan/HelloKotlin

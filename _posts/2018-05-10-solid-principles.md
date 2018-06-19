@@ -2,11 +2,11 @@
 layout: post
 categories: event
 conf-id: 11
-title: معرفی زبان کاتلین و ساخت اپلیکیشن اندروید با آن
+title: اصول پنج گانه SOLID در مهندسی نرم افزار
 short-title: S.O.L.I.D
 lecturer: آرش خانگلدی
 avatar: arash-khangaldi.jpg
-image: 
+image:
 date: 2018-05-10 15:0:0 +0430
 reserve-url:
 source:
