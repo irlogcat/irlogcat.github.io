@@ -6,6 +6,12 @@
             <span class="mail">{{ post.lecturer }}</span>
             <div id="date:{{post.date}}" class="tarikh"></div>
         </span>
+        <script>
+            var date='{{post.date}}'
+            moment.loadPersian(true);
+            var mom = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('jD jMMMM jYYYY');
+            document.getElementById("date:{{post.date}}").innerText=mom
+        </script>
     </div>
     <div class="availability">
         <div>
