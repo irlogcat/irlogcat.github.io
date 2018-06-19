@@ -5,12 +5,13 @@ layout: default
 {% include header.html %}
 
 <section id="tickets">
+    
     <div class="my_container clearfix">
-
         <h2>آخرین ارائه‌ها</h2>
-
-        {% for post in site.posts limit:4 %}
-        {% include ticket.html %}
+        {% for post in site.posts %}
+            {% if forloop.index <= 4  %}
+                {% include ticket.html %}
+            {%endif%}
         {%endfor%}
 
     </div>
