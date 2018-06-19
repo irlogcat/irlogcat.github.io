@@ -1,0 +1,24 @@
+<article class="ticket_box">
+    <div class="scroll" data-link="{{post.conf-id}}">
+        <img class="ticket_img" src="image/avatar/{%if post.avatar%}{{post.avatar}}{%else%}place-holder.jpg{%endif%}" alt="">
+        <span class="description">
+            <h3>{{ post.short-title }}</h3>
+            <span class="mail">{{ post.lecturer }}</span>
+            <div id="date:{{post.date}}" class="tarikh"></div>
+        </span>
+    </div>
+    <div class="availability">
+        <div>
+            <img src="image/icons/ticket.png" alt="ticket icon">
+            {%if post.held-conferance %}
+                <p class="state">برگزار شده</p>
+            {% else if !post.available-ticket %}
+                <p class="state">بلیت تمام شد</p>
+            {%else%}
+                <p>
+                    <a class="button" href="{{post.reserve-url}}" >تهیه بلیط</a>
+                </p>
+            {%endif%}
+        </div>
+    </div>
+</article>
