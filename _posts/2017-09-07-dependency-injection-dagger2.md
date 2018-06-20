@@ -6,7 +6,7 @@ title: Dependency Injection با استفاده از Dagger2
 short-title: Dagger2
 lecturer: عباس اویسی
 avatar: abbas-oveissi.jpg
-image: 
+image: conf03.jpg
 date: 2017-09-07 15:0:0 +0430
 reserve-url:
 source: https://github.com/abbas-oveissi/DaggerSample

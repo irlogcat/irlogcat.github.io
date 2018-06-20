@@ -1,13 +1,13 @@
 ---
 layout: post
 categories: event
-conf-id: 11
+conf-id: 12
 title: معرفی Architecture Components و استفاده از DataBinding
 short-title: ArchitectureComponents & DataBinding
 lecturer: امیررضا غلامی - داوود حسینی
 avatar:
 image: 
-date: 2018-06-19 15:0:0 +0430
+date: 2018-06-21 15:0:0 +0430
 reserve-url: https://evand.com/events/logcat12
 source:
 slide: 
