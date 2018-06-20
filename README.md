@@ -1,9 +1,10 @@
-# [Logcat][0]
+## Logcat
 
-Logcat site powered by [Jekyll][1].
+[Logcat][0] site powered by [Jekyll][1].
+
 Jekyll is a simple static site generator for wide ass admins.
 
-# Add new event
+## Add new event
 
 1.  Take a copy from [templete file][2] 
 1.  Fill empty attributes
