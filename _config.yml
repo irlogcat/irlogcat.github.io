@@ -34,7 +34,7 @@ youtube:  https://www.youtube.com/channel/UCVHFbqXqo
 
 # Build settings
 markdown: kramdown
-# theme: minima
+future: true
 plugins:
   - jekyll-feed
 
