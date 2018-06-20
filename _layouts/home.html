@@ -32,7 +32,7 @@ layout: default
 <section id="posts">
     <div class="my_container">
         {% for post in site.posts %}
-            {%if post.held-conferance %}
+            {%if post.held-conferance and post.conf-id %}
                 {% include post-item.html %}
             {%endif%}
         {%endfor%}
