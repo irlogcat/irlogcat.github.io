@@ -8,7 +8,7 @@ lecturer: آرش خانگلدی
 avatar: arash-khangaldi.jpg
 image:
 date: 2018-05-10 15:0:0 +0430
-reserve-url:
+reserve-url: https://evand.com/events/logcat11
 source:
 slide: https://www.slideshare.net/ArashKhangaldi/solid-principles-in-action
 youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7jh6KggjhwTH9s_8XIlSdOs

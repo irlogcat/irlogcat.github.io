@@ -8,7 +8,7 @@ lecturer: مجید رمضانپور
 avatar: majid-ramezanpour.jpg
 image: conf04.jpg
 date: 2017-10-05 15:0:0 +0430
-reserve-url:
+reserve-url: https://evand.com/events/logcat4
 source: https://github.com/maour/sample
 slide: https://www.slideshare.net/maour/android-architectures
 youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7jBj55vDMEz-pw9FfvVoOpp
