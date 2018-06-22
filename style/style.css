@@ -1,9 +1,4 @@
- @import url(../fonts/vazir.css);
- @font-face {
-     font-family: 'yekan';
-     font-weight: normal;
-     src: url(../fonts/B-Yekan.woff);
- }
+ @import url(../assets/fonts/vazir.css);
  /*
 @media screen and (min-width: 768px) and (max-width: 1024px) {}
 @media screen and (min-width: 1025px) and (max-width: 1200px) {}
