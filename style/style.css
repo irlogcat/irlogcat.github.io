@@ -297,6 +297,9 @@ section#tickets .ticket_box:hover{
     cursor: pointer;
     overflow: hidden;
 }
+.ticket_box .scroll .title{
+    height: 2em;
+}
 .ticket_box .ticket_img{
     width: 80%;
     height: auto;
