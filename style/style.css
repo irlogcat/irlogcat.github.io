@@ -255,6 +255,9 @@
      background-color: #BC1B5D;
  }
 
+.date{
+    font-family: VazirFamily-FD;
+}
 
  /* section tickets ========================================================= */
 
@@ -595,7 +598,7 @@ section#posts .post:hover h3{
     width: 100%;
     font-size: 0.8em;
     margin-top: 15px;
-    color: #ccc;
+    color: #bbb;
 }
 #posts .post_title .post_info .fa{
     margin-left: 5px;
