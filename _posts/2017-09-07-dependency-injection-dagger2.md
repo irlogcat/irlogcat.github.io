@@ -13,6 +13,5 @@ source: https://github.com/abbas-oveissi/DaggerSample
 slide: https://www.slideshare.net/abbasoveissi/dependency-injection-with-dagger-2-79531970
 youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7iRrw6bWMoe9HeSWQHGXzJp
 available-ticket: true
-held-conferance: true
 ---
 در این ارائه عباس اویسی در مورد Dagger2 صحبت می‌کند. درصد زیادی از برنامه‌نویسان اندروید برای پیاده‌سازی پترن Dependency Injection از Dagger2 استفاده می‌کنند. در این ارائه ابتدا مقدمه‌ای درباره DI و مفاهیم آن گفته شده و سپس نحوه‌ی استفاده از Dagger2 توضیح داده می‌شود.

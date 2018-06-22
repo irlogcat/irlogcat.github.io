@@ -13,7 +13,6 @@ source:
 slide: 
 youtube: 
 available-ticket: true
-held-conferance: false
 ---
 Android Architecture Components
 یک مجموعه از کتابخانه ها است که به طراحی و معماری بهتر برنامه ها و تست کردن راحت‌تر برنامه‌ها کمک میکند. در این ارائه کامپوننت های Room و ViewModel و  LiveData بررسی می‌شوند. همچنین  از این کامپوننت ها برای ساخت یک برنامه همراه با یک مثال عملی استفاده خواهیم کرد.

@@ -16,11 +16,13 @@
     <div class="availability">
         <div>
             <img src="image/icons/ticket.png" alt="ticket icon">
-            {%if post.held-conferance %}
+            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if posttime < nowunix %}
                 <p class="state">برگزار شده</p>
             {% elsif post.available-ticket %}
                 <p>
-                    <a class="button" href="{{post.reserve-url}}" >تهیه بلیط</a>
+                    <a class="button" href="{{post.reserve-url}}" >تهیه بلیت</a>
                 </p>
             {%else%}
                 <p class="state">بلیت تمام شد</p>

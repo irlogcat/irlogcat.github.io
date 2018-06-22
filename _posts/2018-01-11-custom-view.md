@@ -13,6 +13,5 @@ source: https://github.com/imaNNeoFighT/CustomViewPresentation
 slide: https://www.slideshare.net/imaNKhoshabi/custom-view-86049195
 youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7icXPSn2EkNi8Y6Yn9B4Pai
 available-ticket: false
-held-conferance: true
 ---
 در این ارائه ایمان خوش آبی در رابطه با Custom View صحبت می‌کند و توضیح می‌دهد که منظور از Custom View چیست و چطور باید از آن استفاده کرد. همچنین در طول ارایه درباره‌ی نحوه‌ی ساخت، نمایش و چرخه زندگی View در اندروید نیز صحبت می‌شود.

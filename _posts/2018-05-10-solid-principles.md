@@ -13,6 +13,5 @@ source:
 slide: https://www.slideshare.net/ArashKhangaldi/solid-principles-in-action
 youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7jh6KggjhwTH9s_8XIlSdOs
 available-ticket: true
-held-conferance: true
 ---
 در این ارائه نقش SOLID در توسعه ی نرم افزار(با تمرکز بر روی اندروید) بررسی خواهد شد. همچنین با ارائه مثال هایی سعی در هر حل کردن چالش های روزمره را خواهیم داشت.
