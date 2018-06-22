@@ -1,0 +1,32 @@
+<article class="ticket_box">
+    <div class="scroll" data-link="{{post.conf-id}}">
+        <img class="ticket_img" src="image/avatar/{%if post.avatar%}{{post.avatar}}{%else%}place-holder.jpg{%endif%}" alt="">
+        <span class="description">
+            <h3 class="title">{{ post.short-title }}</h3>
+            <span class="mail">{{ post.lecturer }}</span>
+            <div id="date:{{post.date}}" class="date"></div>
+        </span>
+        <script>
+            var date='{{post.date}}'
+            moment.loadPersian(true);
+            var mom = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('jD jMMMM jYYYY');
+            document.getElementById("date:{{post.date}}").innerText=mom
+        </script>
+    </div>
+    <div class="availability">
+        <div>
+            <img src="image/icons/ticket.png" alt="ticket icon">
+            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if posttime < nowunix %}
+                <p class="state">برگزار شده</p>
+            {% elsif post.available-ticket %}
+                <p>
+                    <a class="button" href="{{post.reserve-url}}" >تهیه بلیت</a>
+                </p>
+            {%else%}
+                <p class="state">بلیت تمام شد</p>
+            {%endif%}
+        </div>
+    </div>
+</article>

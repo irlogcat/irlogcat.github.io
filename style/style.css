@@ -1,9 +1,4 @@
- @import url(../fonts/vazir.css);
- @font-face {
-     font-family: 'yekan';
-     font-weight: normal;
-     src: url(../fonts/B-Yekan.woff);
- }
+ @import url(../assets/fonts/vazir.css);
  /*
 @media screen and (min-width: 768px) and (max-width: 1024px) {}
 @media screen and (min-width: 1025px) and (max-width: 1200px) {}
@@ -260,6 +255,9 @@
      background-color: #BC1B5D;
  }
 
+.date{
+    font-family: VazirFamily-FD;
+}
 
  /* section tickets ========================================================= */
 
@@ -297,8 +295,10 @@ section#tickets .ticket_box:hover{
 .ticket_box .scroll{
     padding: 15px;
     cursor: pointer;
-    padding-bottom: 35px;
     overflow: hidden;
+}
+.ticket_box .scroll .title{
+    height: 2em;
 }
 .ticket_box .ticket_img{
     width: 80%;
@@ -373,6 +373,36 @@ section#tickets .ticket_box a{
 }
 .ticket_box .availability p{
     margin-top: 15px;
+}
+
+.ticket_box .availability .state{
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    font-family: VazirFamily;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.ticket_box .availability .button{
+    color: #fff !important;
+    background-color: #bc1b5d;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    font-family: VazirFamily;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    padding: 10px 30px;
 }
 @media screen and (max-width: 1024px) {
     section#tickets .ticket_box{
@@ -571,7 +601,7 @@ section#posts .post:hover h3{
     width: 100%;
     font-size: 0.8em;
     margin-top: 15px;
-    color: #ccc;
+    color: #bbb;
 }
 #posts .post_title .post_info .fa{
     margin-left: 5px;

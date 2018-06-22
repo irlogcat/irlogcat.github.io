@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<section id="tickets">
+    
+    <div class="my_container clearfix">
+        <h2>آخرین ارائه‌ها</h2>
+        {% for post in site.posts %}
+            {% if forloop.index <= 4  %}
+                {% include ticket.html %}
+            {%endif%}
+        {%endfor%}
+
+    </div>
+</section>
+
+
+<section id="signup">
+    <div class="my_container">
+        <p>برای دریافت آخرین اخبار مرتبط با اندروید و مطلع شدن از زمان برگزاری همایش‌ها ایمیل خودر را وارد نمایید</p>
+        <form action="#" method="get" accept-charset="utf-8">
+            <input type="email" name="" value="" placeholder="ایمیل خود را وارد نمایید">
+            <input type="submit" name="" value="عضویت در خبرنامه">
+        </form>
+    </div>
+</section>
+
+
+<section id="posts">
+    <div class="my_container">
+        {% for post in site.posts %}
+            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if posttime < nowunix  and post.conf-id %}
+                {% include post-item.html %}
+            {%endif%}
+        {%endfor%}
+    </div>
+</section>
+
+
+{% include footer.html %}
