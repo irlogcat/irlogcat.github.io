@@ -34,7 +34,7 @@ layout: default
         {% for post in site.posts %}
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
             {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-            {% if posttime < nowunix %}
+            {% if posttime < nowunix  and post.conf-id %}
                 {% include post-item.html %}
             {%endif%}
         {%endfor%}
