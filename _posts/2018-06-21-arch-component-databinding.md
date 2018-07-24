@@ -5,13 +5,13 @@ conf-id: 12
 title: معرفی Architecture Components و استفاده از DataBinding
 short-title: ArchitectureComponents & DataBinding
 lecturer: امیررضا غلامی - داوود حسینی
-avatar:
-image: 
+avatar: davoud_hoseini.jpg
+image: conf12.jpg
 date: 2018-06-21 15:0:0 +0430
 reserve-url: https://evand.com/events/logcat12
-source:
-slide: 
-youtube: 
+source: https://gitlab.com/aminreza.gholami/mvvm-sample
+slide: https://www.slideshare.net/aminrgh/android-architecture-component-106691888
+youtube: https://www.youtube.com/playlist?index=1&playnext=1&list=PLT2xIm2X7W7jdVsQqsVGoLyAPUMxEK8uP
 available-ticket: true
 ---
 Android Architecture Components
