@@ -10,7 +10,7 @@
 
         <h3>{{post.title}}</h3>
         <div class="post_info">
-            <i class="fa fa-calendar"></i><span id="post-date:{{post.date}}" class="date"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-calendar"></i><span id="post-date:{{post.date}}{{post.title}}" class="date"></span>&nbsp;&nbsp;&nbsp;&nbsp;
             <!--<i class="fa fa-exclamation" style="color: #37CD3C"></i><span class="comment" style="color: #37CD3C">بلیت برای این ارائه موجود است.</span>-->
         </div><!-- /post_info -->
         <p class="post_summery">{{post.content}}</p>
@@ -19,7 +19,7 @@
             var date='{{post.date}}'
             moment.loadPersian(true);
             var mom = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('jD jMMMM jYYYY');
-            document.getElementById("post-date:{{post.date}}").innerText=mom
+            document.getElementById("post-date:{{post.date}}{{post.title}}").innerText=mom
         </script>
         
         <div class="link">
