@@ -634,6 +634,13 @@ section#posts .post:hover h3{
 .post .link a#slideshare:hover{
     background: url(../image/icons/slideshare-hover.svg) center center no-repeat;
 }
+.post .link a#aparat{
+    background: url(../image/icons/aparat-logo.svg) center center no-repeat;
+    width: 130px;
+}
+.post .link a#aparat:hover{
+    background: url(../image/icons/aparat-hover.svg) center center no-repeat;
+}
 /* media query *********************** */
 @media screen and (max-width: 1204px) {
     #posts .post_img {
