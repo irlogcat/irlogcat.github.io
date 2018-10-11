@@ -9,10 +9,10 @@ avatar: saeid-masoumi.jpg
 image: 
 date: 2018-09-13 15:0:0 +0430
 reserve-url: https://evand.com/events/logcat14
-source: 
-slide: 
-youtube: 
-aparat: 
+source: https://github.com/SaeedMasoumi/MovieHub
+slide: https://speakerdeck.com/saeedmasoumi/clean-architecture-in-action-part-1-saeed-masoumi
+youtube: https://www.youtube.com/watch?v=dlx61Nb0zO0&list=PLT2xIm2X7W7h2TuQBcHzIFqGVaSyHG6l-
+aparat: https://www.aparat.com/v/oKL93
 available-ticket: true
 ---
 در این سلسه ارائه ها با موضوع How to make a clean app قصد داریم خلاصه ای از مفاهیم و فریم ورک های مختلف این حوزه از طراحی لایه معماری تا نحوه ‌ی استفاده از ابزارهای مختلف را در قالب پیاده سازی یک اپلیکیشن مرور کنیم.
