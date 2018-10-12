@@ -3,7 +3,7 @@ layout: post
 categories: event
 conf-id: 14
 title: ساخت اپ با معماری Clean
-short-title: Clean architecture part 2
+short-title: Clean Architecture in Action 1
 lecturer: سعید معصومی
 avatar: saeid-masoumi.jpg
 image: 
