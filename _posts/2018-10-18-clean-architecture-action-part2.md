@@ -2,8 +2,8 @@
 layout: post
 categories: event
 conf-id: 15
-title: ادامه ساخت اپ با معماری Clean
-short-title: Clean Architecture in Action 2
+title: پیاده سازی یک اپ با استفاده از Clean architecture - بخش دوم
+short-title: Clean architecture in action - part two
 lecturer: سعید معصومی
 avatar: saeid-masoumi.jpg
 image: 
