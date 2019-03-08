@@ -2,8 +2,8 @@
 layout: post
 categories: event
 conf-id: 14
-title: ساخت اپ با معماری Clean
-short-title: Clean Architecture in Action 1
+title: پیاده سازی یک اپ با استفاده از Clean architecture - بخش اول
+short-title: Clean architecture in action - part one
 lecturer: سعید معصومی
 avatar: saeid-masoumi.jpg
 image: 
@@ -18,7 +18,7 @@ available-ticket: true
 در این سلسه ارائه ها با موضوع How to make a clean app قصد داریم خلاصه ای از مفاهیم و فریم ورک های مختلف این حوزه از طراحی لایه معماری تا نحوه ‌ی استفاده از ابزارهای مختلف را در قالب پیاده سازی یک اپلیکیشن مرور کنیم.
 
 از جمله مباحثی که در این سلسه ارائه بیان میشود:
-Clean Architecture
+- Clean Architecture
 - Android Jetpack
 - Dependecy Injection
 - Reactive Programming
