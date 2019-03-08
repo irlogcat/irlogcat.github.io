@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter: https://twitter.com/irlogcat/
 github:  https://github.com/irlogcat/
 telegram:  http://t.me/irlogcat/
-youtube:  https://www.youtube.com/channel/UCVHFbqXqo
+youtube:  https://www.youtube.com/c/irlogcat
 
 # Build settings
 markdown: kramdown
