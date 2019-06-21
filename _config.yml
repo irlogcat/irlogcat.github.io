@@ -37,6 +37,7 @@ markdown: kramdown
 future: true
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -51,3 +52,15 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 10
+  offset: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
