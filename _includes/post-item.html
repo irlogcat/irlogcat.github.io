@@ -1,7 +1,7 @@
 <div id="{{post.conf-id}}" class="post">
     <div class="post_img">
         <a href="{{post.youtube}}">
-            <img src="image/posts/{%if post.image %}{{post.image}}{%else%}place-holder.jpg{%endif%}" alt="">
+            <img src="{{site.url}}/image/posts/{%if post.image %}{{post.image}}{%else%}place-holder.jpg{%endif%}" alt="">
             <span class="fa fa-play-circle-o"></span>
         </a>
     </div>
