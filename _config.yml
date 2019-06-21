@@ -58,7 +58,7 @@ exclude:
 pagination:
   enabled: true
   per_page: 10
-  offset: 10
+  offset: 0
   permalink: '/page/:num/'
   title: ':title - page :num of :max'
   limit: 0
