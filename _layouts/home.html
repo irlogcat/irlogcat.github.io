@@ -31,7 +31,7 @@ layout: default
 
 <section id="posts">
     <div class="my_container">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 10 %}
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
             {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
             {% if posttime < nowunix  and post.conf-id %}
@@ -40,6 +40,8 @@ layout: default
         {%endfor%}
     </div>
 </section>
-
+<div class="pager">
+    <a class="button" href="/events" >ایونت‌های قبلی</a>
+</div>
 
 {% include footer.html %}

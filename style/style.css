@@ -753,3 +753,18 @@ footer a.social_media:hover{
         width: 100%;
     }
 }
+
+.pager .button{
+    color: #fff !important;
+    background-color: #bc1b5d;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    font-family: VazirFamily;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    padding: 10px 30px;
+}
