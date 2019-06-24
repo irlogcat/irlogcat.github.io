@@ -17,14 +17,14 @@ layout: default
 
     <div>
     {% if paginator.total_pages > 1 %}
-    <ul class="pager">
+    <div class="pager">
         {% if paginator.previous_page %}
             <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">ایونت‌های جدیدتر</a>
         {% endif %}
         {% if paginator.next_page %}
             <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">ایونت‌های قدیمی‌تر</a>
         {% endif %}
-    </ul>
+    </div>
     {% endif %}
   
 
