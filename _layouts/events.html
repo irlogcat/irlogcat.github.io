@@ -19,10 +19,10 @@ layout: default
     {% if paginator.total_pages > 1 %}
     <div class="pager">
         {% if paginator.previous_page %}
-            <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">ایونت‌های جدیدتر</a>
+            <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">رویدادهای جدیدتر</a>
         {% endif %}
         {% if paginator.next_page %}
-            <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">ایونت‌های قدیمی‌تر</a>
+            <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">رویدادهای قدیمی‌تر</a>
         {% endif %}
     </div>
     {% endif %}

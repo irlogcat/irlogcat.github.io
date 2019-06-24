@@ -1,7 +1,7 @@
 ---
 layout: events
 permalink: /events/
-title: آرشیو ایونت ها
+title: آرشیو رویدادها
 pagination: 
   enabled: true
 ---
