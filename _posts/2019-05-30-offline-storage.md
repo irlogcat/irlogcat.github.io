@@ -10,9 +10,9 @@ image:
 date: 2019-05-30 15:0:0 +0430
 reserve-url: https://evand.com/events/logcat20
 source: 
-slide: 
-youtube: 
-aparat: 
+slide: https://speakerdeck.com/worldsnas/android-offline
+youtube: https://www.youtube.com/playlist?list=PLT2xIm2X7W7h97wuYYr8z76J4B4FRaRLg
+aparat: http://aparat.com/v/8rJwo
 available-ticket: true
 ---
 ارتباط با سرور برقرار می شود، اطلاعات مورد نیاز کاربر دریافت شده و این ارتباط بسته می شود. این یکی از رایج ترین روندهای اپلیکیشن های امروزی است، اما زمانی که از کاربر صرف گرفتن این اطلاعات میشود شاید اصلا برایش خوشایند نباشد. 
