@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: event
-conf-id: -
+conf-id: 
 title: کاتلین برای مرورگر
 short-title: Kotlin for browsers
 lecturer: سینا درویشی

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: event
-conf-id: -
+conf-id: 
 title: Creating declarative UI using Kotlin DSL
 short-title: Declarative UI
 lecturer: کیوان اثباتی

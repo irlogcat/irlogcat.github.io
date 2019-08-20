@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: event
-conf-id: -
+conf-id: 
 title: برنامه نویسی فانکشنال در کاتلین
 short-title: Functional Programming in Kotlin
 lecturer: وحید مواجی

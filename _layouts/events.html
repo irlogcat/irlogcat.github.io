@@ -9,7 +9,7 @@ layout: default
         {% for post in paginator.posts %}
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
             {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-            {% if posttime < nowunix  and post.conf-id %}
+            {% if posttime < nowunix %}
                 {% include post-item.html %}
             {%endif%}
         {%endfor%}
